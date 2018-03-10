@@ -13,3 +13,9 @@
 # Update git config locally
 `git config --local user.name "Garima Kamboj"`
 `git config --local user.email "garima.kamboj@icloud.com"`
+
+# Update remote url
+`git remote set-url origin https://iamgarima@github.com/iamgarima/todo_server.git`
+
+# Sample Heroku App  
+`https://github.com/heroku/node-js-getting-started.git`
