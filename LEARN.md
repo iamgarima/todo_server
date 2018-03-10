@@ -19,3 +19,11 @@
 
 # Sample Heroku App  
 `https://github.com/heroku/node-js-getting-started.git`
+
+# Push to Heroku
+### Install Heroku and it's cli
+### Create an account on Heroku
+#### Add .env defining number of times your app start if fails, Procfile defines how to run your app and attached to HTTP routing stack, engines property specifying the node and npm versions, start script mentioning how to run your app
+`heroku login`
+`heroku create`
+`git push heroku master`
